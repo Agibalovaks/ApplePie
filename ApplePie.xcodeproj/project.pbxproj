@@ -13,6 +13,7 @@
 		A42821EA28BBF43B0047A31E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42821E828BBF43B0047A31E /* Main.storyboard */; };
 		A42821EC28BBF43C0047A31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42821EB28BBF43C0047A31E /* Assets.xcassets */; };
 		A42821EF28BBF43C0047A31E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42821ED28BBF43C0047A31E /* LaunchScreen.storyboard */; };
+		A42821F728C147350047A31E /* GameSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42821F628C147350047A31E /* GameSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A42821EB28BBF43C0047A31E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42821EE28BBF43C0047A31E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42821F028BBF43C0047A31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42821F628C147350047A31E /* GameSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				A42821E228BBF43B0047A31E /* AppDelegate.swift */,
+				A42821EB28BBF43C0047A31E /* Assets.xcassets */,
+				A42821F628C147350047A31E /* GameSwift.swift */,
+				A42821F028BBF43C0047A31E /* Info.plist */,
+				A42821ED28BBF43C0047A31E /* LaunchScreen.storyboard */,
+				A42821E828BBF43B0047A31E /* Main.storyboard */,
 				A42821E428BBF43B0047A31E /* SceneDelegate.swift */,
 				A42821E628BBF43B0047A31E /* ViewController.swift */,
-				A42821E828BBF43B0047A31E /* Main.storyboard */,
-				A42821EB28BBF43C0047A31E /* Assets.xcassets */,
-				A42821ED28BBF43C0047A31E /* LaunchScreen.storyboard */,
-				A42821F028BBF43C0047A31E /* Info.plist */,
 			);
 			path = ApplePie;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42821E728BBF43B0047A31E /* ViewController.swift in Sources */,
+				A42821F728C147350047A31E /* GameSwift.swift in Sources */,
 				A42821E328BBF43B0047A31E /* AppDelegate.swift in Sources */,
 				A42821E528BBF43B0047A31E /* SceneDelegate.swift in Sources */,
 			);
