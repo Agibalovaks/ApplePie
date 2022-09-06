@@ -434,7 +434,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Tree3" width="600" height="945"/>
+        <image name="Tree3" width="128" height="128"/>
         <image name="highlighter" catalog="system" width="128" height="119"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
